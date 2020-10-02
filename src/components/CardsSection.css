@@ -1,0 +1,22 @@
+.cardsSection {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #f6f7fa;
+  z-index: -1;
+  padding: 2rem;
+}
+
+.cardsSection__title {
+  text-align: center;
+  color: #333333;
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+.cardsSection__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Cards from "./components/Cards";
+import CardsSection from "./components/CardsSection";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <Nav />
       <Home />
-      <Cards />
+      <CardsSection />
     </div>
   );
 }
