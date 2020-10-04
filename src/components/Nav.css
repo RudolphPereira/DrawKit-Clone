@@ -19,6 +19,15 @@
   display: flex;
 }
 
+.nav__list a {
+  text-decoration: none;
+  color: #6bd5e1;
+}
+
+.nav__list a:hover {
+  color: #ffd98e;
+}
+
 .nav__items {
   font-size: 0.8rem;
   font-weight: 800;
@@ -45,10 +54,4 @@
   font-size: 1.2rem;
   margin-right: 1.2rem;
   padding-top: 0.3rem;
-  color: #6bd5e1;
-  cursor: pointer;
-}
-
-.nav__icon:hover {
-  color: #ffd98e;
 }

@@ -15,10 +15,14 @@ function Nav() {
         <li className="nav__items">ICONS</li>
         <li className="nav__items">REQUESTS</li>
         <li className="nav__icon">
-          <i className="fab fa-twitter"></i>
+          <a href="https://twitter.com/explore" target="_blank">
+            <i className="fab fa-twitter"></i>
+          </a>
         </li>
         <li className="nav__icon">
-          <i className="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/instagram/?hl=en" target="_blank">
+            <i className="fab fa-instagram"></i>
+          </a>
         </li>
       </ul>
     </nav>

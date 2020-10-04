@@ -4,7 +4,7 @@ import "./CardsSection.css";
 
 function CardsSection() {
   return (
-    <div className="cardsSection">
+    <section className="cardsSection">
       <h1 className="cardsSection__title">Our styles and packs</h1>
 
       <div className="cardsSection__content">
@@ -52,7 +52,7 @@ function CardsSection() {
           footer="10 vector illustrations"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
