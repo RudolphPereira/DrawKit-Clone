@@ -1,6 +1,9 @@
 import React from "react";
 import "./WebPage.css";
 
+const image =
+  "https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5de5e2ef264fd159a3a8896f_combined-working-export-v0.2.png";
+
 function WebPage() {
   return (
     <section className="webpage">
@@ -16,11 +19,7 @@ function WebPage() {
         </div>
 
         <div className="webpage__imageContent">
-          <img
-            src="https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5de5e2ef264fd159a3a8896f_combined-working-export-v0.2.png"
-            alt="hero"
-            className="webpage__image"
-          />
+          <img src={image} alt="hero" className="webpage__image" />
         </div>
 
         <div className="webpage__links">

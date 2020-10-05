@@ -1,5 +1,6 @@
 .nav {
   min-width: 100%;
+  margin: auto;
   background-color: white;
   display: flex;
   justify-content: space-around;
@@ -21,11 +22,6 @@
 
 .nav__list a {
   text-decoration: none;
-  color: #6bd5e1;
-}
-
-.nav__list a:hover {
-  color: #ffd98e;
 }
 
 .nav__items {
@@ -33,15 +29,20 @@
   font-weight: 800;
   color: #4b4b4b;
   margin-right: 1.8rem;
-  padding-top: 0.5rem;
+  padding-top: 0.4rem;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .nav__items:hover {
   color: #e46a79;
 }
 
-.nav__items:first-child {
+.active__class {
+  color: #6bd5e1;
+}
+
+.active__class:hover {
   color: #6bd5e1;
 }
 
@@ -53,5 +54,15 @@
 .nav__icon {
   font-size: 1.2rem;
   margin-right: 1.2rem;
-  padding-top: 0.3rem;
+  padding-top: 0.2rem;
+}
+
+.nav__icon a {
+  text-decoration: none;
+  color: #6bd5e1;
+  transition: all 0.2s ease;
+}
+
+.nav__icon a:hover {
+  color: #ffd98e;
 }

@@ -38,7 +38,7 @@
 .home__hero--form p {
   color: #8a9286;
   font-size: 1.2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.2rem;
 }
 
 .home__hero--form input {
@@ -79,7 +79,7 @@
 }
 
 .home__hero--image {
-  width: 90%;
+  width: 100%;
 }
 
 .home__hero--contentBottom {
