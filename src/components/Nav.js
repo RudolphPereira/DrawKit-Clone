@@ -24,7 +24,7 @@ function Nav() {
           <li>ILLUSTRATIONS</li>
         </NavLink>
         <NavLink
-          to="/Icons"
+          to="/Free-Icons"
           exact
           activeClassName="active__class"
           className="nav__items"

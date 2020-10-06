@@ -24,7 +24,7 @@
   padding: 0 1rem;
   font-size: 0.8rem;
   color: #e46a79;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .card__desc {
@@ -35,7 +35,7 @@
 .card__footer {
   padding: 0.5rem 1rem 3rem;
   color: #c5c5c5;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.8rem;
 }
 

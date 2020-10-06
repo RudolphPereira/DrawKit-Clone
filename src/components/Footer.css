@@ -3,6 +3,7 @@
   margin: auto;
   background-color: #f6f7fa;
   border-top: 1px solid#ebebec;
+  font-weight: 600;
 }
 
 .footer__content {
@@ -14,11 +15,12 @@
 
 .footer__logo {
   width: 8.5rem;
+  padding-top: 0.5rem;
 }
 
 .footer__info--desc {
   width: 80%;
-  padding: 2rem 0;
+  padding: 1rem 0;
   color: #8b98aa;
   line-height: 1.8;
   font-size: 0.9rem;
@@ -54,7 +56,7 @@
 
 .footer__links--items,
 .footer__content--items {
-  padding: 0.4rem 0;
+  padding: 0.2rem 0;
   font-size: 0.9rem;
 }
 

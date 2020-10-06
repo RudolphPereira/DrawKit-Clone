@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import WebPage from "./components/WebPage";
+import HomeTwo from "./components/HomeTwo";
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
             <WebPage />
             <Footer />
           </Route>
-          <Route path="/Icons">
+          <Route path="/Free-Icons">
             <Nav />
+            <HomeTwo />
           </Route>
         </Switch>
       </div>

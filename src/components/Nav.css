@@ -12,7 +12,8 @@
 
 .nav__logo {
   width: 9rem;
-  padding: 0.7rem 0;
+  padding: 0.5rem 0 0.3rem;
+  margin-left: 1rem;
 }
 
 .nav__list {
@@ -25,11 +26,11 @@
 }
 
 .nav__items {
-  font-size: 0.8rem;
-  font-weight: 800;
+  font-size: 0.9rem;
+  font-weight: 600;
   color: #4b4b4b;
-  margin-right: 1.8rem;
-  padding-top: 0.4rem;
+  margin-right: 2.2rem;
+  padding-top: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }

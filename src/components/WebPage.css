@@ -22,13 +22,14 @@
 .webpage__title {
   color: #333333;
   padding: 1.2rem 0;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .webpage__desc {
   color: #666666;
   font-size: 0.8rem;
-  padding: 0.5rem 0 2rem;
+  font-weight: 600;
+  padding: 0rem 0 2rem;
 }
 
 .webpage__imageContent {
@@ -50,11 +51,12 @@
 .webpage__linkTitle {
   color: #666666;
   font-size: 0.8rem;
+  font-weight: 600;
   padding: 0 0 0.7rem;
 }
 
 .webpage__link {
   font-size: 0.8rem;
   margin-left: 0.3rem;
-  font-weight: 700;
+  font-weight: 600;
 }
