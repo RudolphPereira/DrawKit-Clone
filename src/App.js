@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import WebPage from "./components/WebPage";
 import HomeTwo from "./components/HomeTwo";
+import CardsSectionTwo from "./components/CardsSectionTwo";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
           <Route path="/Free-Icons">
             <Nav />
             <HomeTwo />
+            <CardsSectionTwo />
+            <SignUp />
+            <Footer />
           </Route>
         </Switch>
       </div>
