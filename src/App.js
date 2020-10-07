@@ -14,32 +14,30 @@ import PopUp from "./components/PopUp";
 
 function App() {
   return (
-    <Router>
-      <HashRouter>
-        <div className="app">
-          <Switch>
-            <Route path="/Drawkit-Clone">
-              <Nav />
-              <Home />
-              <CardsSection />
-              <WebPage />
-              <Footer />
-            </Route>
-            <Route path="/Free-Icons">
-              <Nav />
-              <HomeTwo />
-              <CardsSectionTwo />
-              <SignUp />
-              <Footer />
-            </Route>
-            <Route path="/Requests">
-              <Nav />
-              <PopUp />
-            </Route>
-          </Switch>
-        </div>
-      </HashRouter>
-    </Router>
+    <HashRouter>
+      <div className="app">
+        <Switch>
+          <Route path="/Drawkit-Clone">
+            <Nav />
+            <Home />
+            <CardsSection />
+            <WebPage />
+            <Footer />
+          </Route>
+          <Route path="/Free-Icons">
+            <Nav />
+            <HomeTwo />
+            <CardsSectionTwo />
+            <SignUp />
+            <Footer />
+          </Route>
+          <Route path="/Requests">
+            <Nav />
+            <PopUp />
+          </Route>
+        </Switch>
+      </div>
+    </HashRouter>
   );
 }
 
