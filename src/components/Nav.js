@@ -32,7 +32,7 @@ function Nav() {
           <li>ICONS</li>
         </NavLink>
         <NavLink
-          to="/"
+          to="/Requests"
           exact
           activeClassName="active__class"
           className="nav__items"
@@ -40,12 +40,12 @@ function Nav() {
           <li>REQUESTS</li>
         </NavLink>
         <li className="nav__icon">
-          <a href={twLink} target="_blank">
+          <a href={twLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter"></i>
           </a>
         </li>
         <li className="nav__icon">
-          <a href={igLink} target="_blank">
+          <a href={igLink} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
           </a>
         </li>
