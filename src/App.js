@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
 import CardsSection from "./components/CardsSection";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -14,7 +13,7 @@ import PopUp from "./components/PopUp";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div className="app">
         <Switch>
           <Route path="/Drawkit-Clone">
@@ -37,7 +36,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
