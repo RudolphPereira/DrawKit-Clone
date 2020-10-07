@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Drawkit-Clone/static/css/main.4e356d3b.chunk.css",
-    "main.js": "/Drawkit-Clone/static/js/main.363c1ea8.chunk.js",
-    "main.js.map": "/Drawkit-Clone/static/js/main.363c1ea8.chunk.js.map",
+    "main.js": "/Drawkit-Clone/static/js/main.75a11280.chunk.js",
+    "main.js.map": "/Drawkit-Clone/static/js/main.75a11280.chunk.js.map",
     "runtime-main.js": "/Drawkit-Clone/static/js/runtime-main.0b186c92.js",
     "runtime-main.js.map": "/Drawkit-Clone/static/js/runtime-main.0b186c92.js.map",
-    "static/js/2.093d13ee.chunk.js": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js",
-    "static/js/2.093d13ee.chunk.js.map": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js.map",
+    "static/js/2.e29b0ef3.chunk.js": "/Drawkit-Clone/static/js/2.e29b0ef3.chunk.js",
+    "static/js/2.e29b0ef3.chunk.js.map": "/Drawkit-Clone/static/js/2.e29b0ef3.chunk.js.map",
     "index.html": "/Drawkit-Clone/index.html",
-    "precache-manifest.6879625fababb0b5e0707989747a8d4b.js": "/Drawkit-Clone/precache-manifest.6879625fababb0b5e0707989747a8d4b.js",
+    "precache-manifest.9a6813ba763d68501122e988bdda5474.js": "/Drawkit-Clone/precache-manifest.9a6813ba763d68501122e988bdda5474.js",
     "service-worker.js": "/Drawkit-Clone/service-worker.js",
     "static/css/main.4e356d3b.chunk.css.map": "/Drawkit-Clone/static/css/main.4e356d3b.chunk.css.map",
-    "static/js/2.093d13ee.chunk.js.LICENSE.txt": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js.LICENSE.txt",
+    "static/js/2.e29b0ef3.chunk.js.LICENSE.txt": "/Drawkit-Clone/static/js/2.e29b0ef3.chunk.js.LICENSE.txt",
     "static/media/HeroTwo.png": "/Drawkit-Clone/static/media/HeroTwo.69bb6a46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0b186c92.js",
-    "static/js/2.093d13ee.chunk.js",
+    "static/js/2.e29b0ef3.chunk.js",
     "static/css/main.4e356d3b.chunk.css",
-    "static/js/main.363c1ea8.chunk.js"
+    "static/js/main.75a11280.chunk.js"
   ]
 }
