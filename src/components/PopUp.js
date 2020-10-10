@@ -18,6 +18,7 @@ function PopUp() {
           </span>
         </h1>
         <p>Meanwhile you can view few of my other projects.</p>
+
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
           DIVE BACK IN
         </a>
