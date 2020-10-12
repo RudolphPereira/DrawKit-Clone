@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardTwo.css";
+import "./CardTwo.scss";
 
 function CardTwo({ image, title, subtitle, desc, footer }) {
   return (

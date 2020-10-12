@@ -1,0 +1,41 @@
+.popUp {
+  max-width: 1500px;
+  margin: auto;
+  padding: 3rem 0;
+
+  &__content {
+    width: 80%;
+    margin: 5% auto;
+  }
+
+  &__content h1 {
+    font-size: 3.5rem;
+    color: #333333;
+  }
+
+  &__content span {
+    color: #6bd5e1;
+  }
+
+  &__content p {
+    padding: 2rem 0;
+  }
+
+  &__content a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background-color: #6bd5e1;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+
+  &__content a:hover {
+    background-color: #ffd98e;
+  }
+}

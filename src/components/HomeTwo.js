@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomeTwo.css";
+import "./HomeTwo.scss";
 import Image from "../images/HeroTwo.png";
 
 const iconOne =
@@ -40,8 +40,8 @@ function HomeTwo() {
           </div>
 
           <div className="homeTwo__icon--container">
-            <div className="icons__imageContent">
-              <div className="icon">
+            <div className="homeTwo__icons__imageContent">
+              <div className="homeTwo__icon">
                 <img src={iconOne} alt="iconOne" className="icon__image" />
               </div>
               <div className="icon">
@@ -57,20 +57,20 @@ function HomeTwo() {
                 <img src={iconFive} alt="iconFive" className="icon__image" />
               </div>
             </div>
-            <div className="icon__textContent">
-              <div className="icon__title">
+            <div className="homeTwo__icon__textContent">
+              <div className="homeTwo__icon__title">
                 <p className="icon__text">ALWAYS CONSISTANT</p>
               </div>
-              <div className="icon__title">
+              <div className="homeTwo__icon__title">
                 <p className="icon__text">FULLY CUSTOMIZABLE</p>
               </div>
-              <div className="icon__title">
+              <div className="homeTwo__icon__title">
                 <p className="icon__text">ROYALTY FREE</p>
               </div>
-              <div className="icon__title">
+              <div className="homeTwo__icon__title">
                 <p className="icon__text">VECTOR, NO PIXELATION</p>
               </div>
-              <div className="icon__title">
+              <div className="homeTwo__icon__title">
                 <p className="icon__text">MULTIPLE STYLES</p>
               </div>
             </div>

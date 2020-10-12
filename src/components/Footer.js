@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 
 const logoImage =
   "https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5bf413a0903391cd594d9321_logo-export-5.png";

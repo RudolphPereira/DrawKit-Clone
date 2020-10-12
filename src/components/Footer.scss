@@ -1,0 +1,73 @@
+.footer {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #f6f7fa;
+  border-top: 1px solid#ebebec;
+  font-weight: 600;
+
+  &__content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    padding: 4rem 0;
+  }
+
+  &__logo {
+    width: 8.5rem;
+    padding-top: 0.5rem;
+  }
+
+  &__info--desc {
+    width: 80%;
+    padding: 1rem 0;
+    color: #8b98aa;
+    line-height: 1.8;
+    font-size: 0.9rem;
+  }
+
+  &__info--desc a {
+    color: #3f3d56;
+  }
+
+  &__links,
+  &__contact {
+    padding-top: 1.2rem;
+  }
+
+  &__links {
+    margin-left: -7rem;
+  }
+  &__contact {
+    margin-left: -4rem;
+  }
+
+  &__links--title,
+  &__contact--title {
+    color: #333333;
+    font-size: 1rem;
+  }
+
+  &__links--list,
+  &__content--list {
+    list-style: none;
+    padding: 1rem 0;
+  }
+
+  &__links--items,
+  &__content--items {
+    padding: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+
+  &__links--item,
+  &__content--item {
+    color: #8b98aa;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+
+  &__links--item:hover,
+  &__content--item:hover {
+    color: #3f3d56;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./WebPage.css";
+import "./WebPage.scss";
 
 const image =
   "https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5de5e2ef264fd159a3a8896f_combined-working-export-v0.2.png";

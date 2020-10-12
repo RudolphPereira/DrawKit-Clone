@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 
 const image =
   "https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5c329258ff1c074ddb9fb342_drawkit-hero-animation.gif";

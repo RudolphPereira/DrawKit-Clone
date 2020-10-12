@@ -1,0 +1,62 @@
+.webpage {
+  max-width: 1500px;
+  margin: auto;
+  background-color: white;
+  z-index: -1;
+  padding: 3.5rem 1rem 5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__textContent {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__title {
+    color: #333333;
+    padding: 1.2rem 0;
+    font-size: 1.7rem;
+  }
+
+  &__desc {
+    color: #666666;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0rem 0 2rem;
+  }
+
+  &__imageContent {
+    width: 90%;
+    margin: auto;
+  }
+
+  &__image {
+    width: 100%;
+    padding-top: 0.5rem;
+  }
+
+  &__links {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  &__linkTitle {
+    color: #666666;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0 0 0.7rem;
+  }
+
+  &__link {
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    font-weight: 600;
+  }
+}

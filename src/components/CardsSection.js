@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import "./CardsSection.css";
+import "./CardsSection.scss";
 
 function CardsSection() {
   return (

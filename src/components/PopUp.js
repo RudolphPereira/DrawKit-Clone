@@ -1,5 +1,5 @@
 import React from "react";
-import "./PopUp.css";
+import "./PopUp.scss";
 
 const projectLink = "https://rudolphpereira.github.io/Portfolio/projects/";
 

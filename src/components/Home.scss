@@ -1,0 +1,126 @@
+@import "../Sass/mixin";
+
+.home {
+  max-width: 1500px;
+  width: 65%;
+  margin: 0 auto;
+  padding: 4rem 0 2rem;
+  background-color: white;
+
+  &__hero--contentTop {
+    display: flex;
+    padding: 4rem 0 2rem;
+  }
+
+  &__hero--left {
+    width: 50%;
+    margin: auto 0;
+    @include ipad {
+      width: 60%;
+    }
+  }
+
+  &__hero--title {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #333333;
+  }
+
+  &__hero--desc {
+    font-size: 1.3rem;
+    color: #848c8f;
+    padding: 2rem 0;
+    line-height: 1.4;
+  }
+
+  &__hero--desc span {
+    color: #666666;
+    font-weight: 600;
+  }
+
+  &__hero--form p {
+    color: #8a9286;
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  &__hero--form input {
+    width: 55%;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    box-shadow: 0 0 0 2px #e6e6e6;
+    border-radius: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.1s ease-in-out;
+  }
+
+  &__hero--form input:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 2px #3898ec;
+  }
+
+  &__hero--form input::placeholder {
+    color: #9c9999;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  &__hero--button {
+    color: white;
+    background-color: #6bd5e1;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    margin-left: 0.6rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+
+  &__hero--button:hover {
+    background-color: #ffd98e;
+  }
+
+  &__hero--right {
+    width: 50%;
+    @include ipad {
+      width: 40%;
+    }
+  }
+
+  &__hero--image {
+    padding-bottom: 5rem;
+    width: 100%;
+    @include ipad {
+      padding-bottom: 0rem;
+    }
+  }
+
+  &__hero--contentBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__hero--text p {
+    padding-top: 0.6rem;
+    font-size: 1rem;
+    color: #bbbbbb;
+  }
+
+  &__hero--brandimages {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__hero--brandimages img {
+    width: 8rem;
+    margin-right: 1.5rem;
+    padding-top: 2rem;
+  }
+}

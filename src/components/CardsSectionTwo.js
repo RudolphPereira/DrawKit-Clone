@@ -1,5 +1,5 @@
 import React from "react";
-import "./CardsSectionTwo.css";
+import "./CardsSectionTwo.scss";
 import CardTwo from "./CardTwo";
 
 function CardsSectionTwo() {
