@@ -1,3 +1,5 @@
+@import "../Sass/mixin";
+
 .webpage {
   max-width: 1500px;
   margin: auto;
@@ -16,6 +18,9 @@
     width: 80%;
     margin: auto;
     text-align: center;
+    @include iphone {
+      width: 100%;
+    }
   }
 
   &__title {
@@ -29,6 +34,9 @@
     font-size: 0.8rem;
     font-weight: 600;
     padding: 0rem 0 2rem;
+    @include iphone {
+      font-size: 1rem;
+    }
   }
 
   &__imageContent {
@@ -52,6 +60,9 @@
     font-size: 0.8rem;
     font-weight: 600;
     padding: 0 0 0.7rem;
+    @include iphone {
+      font-size: 1rem;
+    }
   }
 
   &__link {

@@ -10,6 +10,9 @@
   @include ipad {
     width: 29%;
   }
+  @include iphone {
+    width: 29%;
+  }
 
   &:hover {
     transform: translate(0, -15px);

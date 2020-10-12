@@ -1,3 +1,5 @@
+@import "../Sass/mixin";
+
 .footer {
   max-width: 1500px;
   margin: auto;
@@ -10,11 +12,20 @@
     justify-content: space-evenly;
     width: 85%;
     padding: 4rem 0;
+    @include iphone {
+      flex-direction: column;
+      width: 100%;
+      padding: 2rem 0;
+    }
   }
 
   &__logo {
     width: 8.5rem;
     padding-top: 0.5rem;
+    @include iphone {
+      padding-top: 0.2rem;
+      margin-left: 1rem;
+    }
   }
 
   &__info--desc {
@@ -23,6 +34,9 @@
     color: #8b98aa;
     line-height: 1.8;
     font-size: 0.9rem;
+    @include iphone {
+      margin-left: 1rem;
+    }
   }
 
   &__info--desc a {
@@ -36,9 +50,15 @@
 
   &__links {
     margin-left: -7rem;
+    @include iphone {
+      margin-left: 1rem;
+    }
   }
   &__contact {
     margin-left: -4rem;
+    @include iphone {
+      margin-left: 1rem;
+    }
   }
 
   &__links--title,
