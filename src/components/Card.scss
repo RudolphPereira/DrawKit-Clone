@@ -10,6 +10,7 @@
   cursor: pointer;
   @include ipad {
     width: 29%;
+    margin: 1rem 0.5rem;
   }
   @include iphone {
     width: 100%;

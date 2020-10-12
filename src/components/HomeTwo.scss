@@ -11,6 +11,10 @@
 
   &__image {
     width: 100%;
+    @include iphone {
+      padding: 2rem 0;
+      width: 250%;
+    }
   }
 
   &__text--title {
@@ -29,6 +33,11 @@
     @include ipad {
       top: 24%;
       width: 45%;
+    }
+    @include iphone {
+      top: 30%;
+      width: 100%;
+      font-size: 2.3rem;
     }
   }
 
@@ -49,6 +58,9 @@
     padding: 4.2rem 0;
     @include ipad {
       width: 60%;
+    }
+    @include iphone {
+      width: 80%;
     }
   }
 

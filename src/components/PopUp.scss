@@ -1,7 +1,12 @@
+@import "../Sass/mixin";
+
 .popUp {
   max-width: 1500px;
   margin: auto;
   padding: 3rem 0;
+  @include iphone {
+    padding: 5rem 0;
+  }
 
   &__content {
     width: 80%;
@@ -11,6 +16,9 @@
   &__content h1 {
     font-size: 3.5rem;
     color: #333333;
+    @include iphone {
+      font-size: 2.2rem;
+    }
   }
 
   &__content span {

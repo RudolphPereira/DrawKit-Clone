@@ -24,7 +24,7 @@
     padding-top: 0.5rem;
     @include iphone {
       padding-top: 0.2rem;
-      margin-left: 1rem;
+      margin-left: 1.2rem;
     }
   }
 
@@ -35,7 +35,7 @@
     line-height: 1.8;
     font-size: 0.9rem;
     @include iphone {
-      margin-left: 1rem;
+      margin-left: 1.2rem;
     }
   }
 
@@ -51,13 +51,13 @@
   &__links {
     margin-left: -7rem;
     @include iphone {
-      margin-left: 1rem;
+      margin-left: 1.2rem;
     }
   }
   &__contact {
     margin-left: -4rem;
     @include iphone {
-      margin-left: 1rem;
+      margin-left: 1.2rem;
     }
   }
 

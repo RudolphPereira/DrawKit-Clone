@@ -6,7 +6,7 @@
   margin: 0 auto;
   padding: 4rem 0 2rem;
   background-color: white;
-  @include iphone {
+  @include ipad {
     width: 85%;
   }
 
@@ -21,9 +21,6 @@
   &__hero--left {
     width: 50%;
     margin: auto 0;
-    @include ipad {
-      width: 60%;
-    }
     @include iphone {
       width: 100%;
       text-align: center;
@@ -32,7 +29,7 @@
   }
 
   &__hero--title {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     line-height: 1.5;
     font-weight: 600;
     color: #333333;
@@ -74,6 +71,7 @@
     transition: all 0.1s ease-in-out;
     @include iphone {
       width: 100%;
+      margin: 0.5rem 0.6rem;
     }
   }
 
@@ -103,7 +101,7 @@
     cursor: pointer;
     @include iphone {
       width: 100%;
-      margin: 0.5rem 0.6rem;
+      margin-left: 0rem;
     }
   }
 
@@ -113,9 +111,6 @@
 
   &__hero--right {
     width: 50%;
-    @include ipad {
-      width: 40%;
-    }
     @include iphone {
       width: 100%;
     }
