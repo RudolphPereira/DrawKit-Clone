@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a77c2588a763204e019c4b8b11d31cb6",
+    "revision": "08c4d82450c3f3be3f1242cffdd4eabb",
     "url": "/Drawkit-Clone/index.html"
   },
   {
-    "revision": "3960a970970aa536afe5",
-    "url": "/Drawkit-Clone/static/css/main.4e356d3b.chunk.css"
+    "revision": "cf8eef7b5606f5bb1e26",
+    "url": "/Drawkit-Clone/static/css/main.6dc97fd1.chunk.css"
   },
   {
     "revision": "47e8ef47e4cabee5d556",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3960a970970aa536afe5",
-    "url": "/Drawkit-Clone/static/js/main.363c1ea8.chunk.js"
+    "revision": "cf8eef7b5606f5bb1e26",
+    "url": "/Drawkit-Clone/static/js/main.184f480a.chunk.js"
   },
   {
     "revision": "71087aef7d13a273ae43",
