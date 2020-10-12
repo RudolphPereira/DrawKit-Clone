@@ -1,3 +1,5 @@
+@import "../Sass/mixin";
+
 .signUp {
   max-width: 1500px;
   margin: auto;
@@ -8,6 +10,9 @@
     width: 52%;
     margin: auto;
     text-align: center;
+    @include ipad {
+      width: 62%;
+    }
   }
 
   &__title {
