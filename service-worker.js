@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Drawkit-Clone/precache-manifest.d0782373033b52d838bf5929560a15ca.js"
+  "/Drawkit-Clone/precache-manifest.8ad427c0e6fd243054fb9de7b3521ecf.js"
 );
 
 self.addEventListener('message', (event) => {
