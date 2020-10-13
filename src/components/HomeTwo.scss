@@ -11,9 +11,14 @@
 
   &__image {
     width: 100%;
+    max-height: 90vh;
+    object-fit: cover;
+    padding: 2rem 0;
+    @include ipad {
+      height: 85vh;
+    }
     @include iphone {
-      padding: 2rem 0;
-      width: 250%;
+      height: 75vh;
     }
   }
 
@@ -27,16 +32,15 @@
     margin: auto;
     width: 37%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     line-height: 1.5;
     padding: 2rem 0.5rem 1rem;
     @include ipad {
-      top: 24%;
-      width: 45%;
+      top: 30%;
+      width: 53%;
     }
     @include iphone {
-      top: 30%;
-      width: 100%;
+      width: 90%;
       font-size: 2.3rem;
     }
   }
@@ -48,7 +52,7 @@
     background-color: white;
     box-shadow: 0px -16px 28px -15px #e7e7e7;
     @include ipad {
-      margin-top: -2rem;
+      margin-top: -2.5rem;
     }
   }
 
