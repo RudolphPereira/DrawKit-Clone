@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Drawkit-Clone/static/css/main.e7e4d594.chunk.css",
+    "main.css": "/Drawkit-Clone/static/css/main.e1f0c494.chunk.css",
     "main.js": "/Drawkit-Clone/static/js/main.076091e4.chunk.js",
     "main.js.map": "/Drawkit-Clone/static/js/main.076091e4.chunk.js.map",
     "runtime-main.js": "/Drawkit-Clone/static/js/runtime-main.0b186c92.js",
@@ -8,16 +8,16 @@
     "static/js/2.093d13ee.chunk.js": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js",
     "static/js/2.093d13ee.chunk.js.map": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js.map",
     "index.html": "/Drawkit-Clone/index.html",
-    "precache-manifest.8ad427c0e6fd243054fb9de7b3521ecf.js": "/Drawkit-Clone/precache-manifest.8ad427c0e6fd243054fb9de7b3521ecf.js",
+    "precache-manifest.8c87940606798f7358616415dba2c2f2.js": "/Drawkit-Clone/precache-manifest.8c87940606798f7358616415dba2c2f2.js",
     "service-worker.js": "/Drawkit-Clone/service-worker.js",
-    "static/css/main.e7e4d594.chunk.css.map": "/Drawkit-Clone/static/css/main.e7e4d594.chunk.css.map",
+    "static/css/main.e1f0c494.chunk.css.map": "/Drawkit-Clone/static/css/main.e1f0c494.chunk.css.map",
     "static/js/2.093d13ee.chunk.js.LICENSE.txt": "/Drawkit-Clone/static/js/2.093d13ee.chunk.js.LICENSE.txt",
     "static/media/HeroTwo.png": "/Drawkit-Clone/static/media/HeroTwo.69bb6a46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0b186c92.js",
     "static/js/2.093d13ee.chunk.js",
-    "static/css/main.e7e4d594.chunk.css",
+    "static/css/main.e1f0c494.chunk.css",
     "static/js/main.076091e4.chunk.js"
   ]
 }
