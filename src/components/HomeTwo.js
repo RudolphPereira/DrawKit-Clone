@@ -40,37 +40,25 @@ function HomeTwo() {
           </div>
 
           <div className="homeTwo__icon--container">
-            <div className="homeTwo__icons__imageContent">
-              <div className="homeTwo__icon">
+            <div className="homeTwo__icons__Content">
+              <div className="icon">
                 <img src={iconOne} alt="iconOne" className="icon__image" />
+                <p className="icon__text">ALWAYS CONSISTANT</p>
               </div>
               <div className="icon">
                 <img src={iconTwo} alt="iconTwo" className="icon__image" />
+                <p className="icon__text icon__textTwo">FULLY CUSTOMIZABLE</p>
               </div>
-              <div className="icon">
+              <div className="icon icon__three">
                 <img src={iconThree} alt="iconThree" className="icon__image" />
+                <p className="icon__text icon__textThree">ROYALTY FREE</p>
               </div>
-              <div className="icon">
+              <div className="icon icon__four">
                 <img src={iconFour} alt="iconFour" className="icon__image" />
+                <p className="icon__text">VECTOR, NO PIXELATION</p>
               </div>
               <div className="icon">
                 <img src={iconFive} alt="iconFive" className="icon__image" />
-              </div>
-            </div>
-            <div className="homeTwo__icon__textContent">
-              <div className="homeTwo__icon__title">
-                <p className="icon__text">ALWAYS CONSISTANT</p>
-              </div>
-              <div className="homeTwo__icon__title">
-                <p className="icon__text">FULLY CUSTOMIZABLE</p>
-              </div>
-              <div className="homeTwo__icon__title">
-                <p className="icon__text">ROYALTY FREE</p>
-              </div>
-              <div className="homeTwo__icon__title">
-                <p className="icon__text">VECTOR, NO PIXELATION</p>
-              </div>
-              <div className="homeTwo__icon__title">
                 <p className="icon__text">MULTIPLE STYLES</p>
               </div>
             </div>

@@ -81,38 +81,55 @@
   }
 
   &__icon--container {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0rem 4rem;
+    @include iphone {
+      width: 100%;
+    }
+  }
+
+  &__icons__Content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding: 2rem 0.5rem 4rem;
-  }
-
-  &__icons__imageContent {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  &__icon__textContent {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1rem;
-  }
-
-  &__icon__title {
-    width: 100%;
+    @include iphone {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
   }
 }
 
-.icon__image {
-  width: 4.2rem;
-}
-.icon__text {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  font-size: 1rem;
-  color: #333333;
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0;
+
+  &__image {
+    width: 5rem;
+  }
+
+  &__text {
+    width: 95%;
+    text-align: center;
+    margin-top: 1rem;
+    color: #333333;
+  }
+
+  &__three {
+    margin-top: 2rem;
+  }
+
+  &__three,
+  &__four {
+    @include iphone {
+      margin-left: 2.6rem;
+    }
+  }
+
+  &__textTwo {
+    margin-top: 0.2rem;
+  }
 }
