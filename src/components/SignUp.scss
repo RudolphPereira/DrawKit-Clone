@@ -32,7 +32,7 @@
     }
   }
 
-  &__form input {
+  &__form input[type="text"] {
     width: 55%;
     padding: 0.8rem 0.6rem;
     border: none;
@@ -40,13 +40,17 @@
     border-radius: 0.4rem;
     font-family: "Poppins", sans-serif;
     transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
     @include iphone {
       width: 100%;
       margin: 0.5rem 0.6rem;
     }
   }
 
-  &__form input:focus {
+  &__form input[type="text"]:focus {
     outline: none;
     border: none;
     box-shadow: 0 0 0 2px #3898ec;
