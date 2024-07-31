@@ -1,7 +1,7 @@
 import React from "react";
 import "./PopUp.scss";
 
-const projectLink = "http://rudolphpereira.com/#projects";
+const projectLink = "http://rudolphpereira.com";
 
 function PopUp() {
   return (
