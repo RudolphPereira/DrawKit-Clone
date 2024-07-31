@@ -17,11 +17,11 @@ function PopUp() {
             </span>
           </span>
         </h1>
-        // <p>Meanwhile you can view few of my other projects.</p>
+        <p>Meanwhile you can view few of my other projects.</p>
 
-        // <a href={projectLink} target="_blank" rel="noopener noreferrer">
-        //   DIVE BACK IN
-        // </a>
+        <a href={projectLink} target="_blank" rel="noopener noreferrer">
+          DIVE BACK IN
+        </a>
       </div>
     </div>
   );
